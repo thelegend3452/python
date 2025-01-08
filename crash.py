@@ -1,1 +1,1 @@
-gitmessage = "git pushing"print("pushed")
+gitmessage = "git pushing"print("pushed")gitmessagemac = "it worked"print(gitmessagemac)
