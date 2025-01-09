@@ -64,7 +64,17 @@ for cube in cubes:
     
 #4.9
 cubes = [value**2 for value in range(1,11)]
-print(cubes)
+print(cubes, "\n")
 
 
+#4.10
+slice_list= ['pizza', 'falafel', 'carrot cake', 'cannoli', 'ice cream']
+print("The first three items in the list are:")
+print(slice_list[0:3],"\n")
+
+print("The middle list is:")
+print(slice_list[1:4],"\n")
+
+print("Last three items in the list are:")
+print(slice_list[-3:])
 
