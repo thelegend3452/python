@@ -78,3 +78,48 @@ print(slice_list[1:4],"\n")
 print("Last three items in the list are:")
 print(slice_list[-3:])
 
+#4.11
+
+pizzas = ['margarita', 'chicken pizza', 'beef pizza']
+friends_pizzas = ['margarita', 'chicken pizza', 'beef pizza']
+pizzas.append('fish pizza')
+friends_pizzas.append('pepperoni pizza')
+
+print('This is my list:')
+for pizza in pizzas:
+    print(f" - {pizza}")
+
+print('this is my friends list:')
+for pizza in friends_pizzas:
+    print(f" - {pizza}")
+
+#4.12
+print('\n4.12')
+my_foods = ['pizza', 'falafel', 'carrot cake']
+friend_foods = my_foods[:]
+my_foods.append('taco')
+friend_foods.append('spaghetti')
+
+print('my food list:')
+for food in my_foods:
+    print(f" - {food}")
+
+print('this is my friends list:')
+for food in friend_foods:
+    print(f" - {food}")
+    
+    
+#4.13
+print('\n4.13')
+
+my_tfoods = ("banana", "beef", "chicken", "vegtables", "fruit")
+my_tfoods = ("apple", "tuna", "chicken", "vegtables", "fruit")
+
+print('Before:')
+for tfood in my_tfoods:
+    print(f" - {tfood}")
+
+print('After:')
+for tfood in my_tfoods:
+    print(f"- {tfood}")
+    
