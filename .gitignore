@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+
+# Node & Electron
+electron-app/node_modules/
+electron-app/*.log
+electron-app/CoffeeTracker-*/   # built app folders
+.DS_Store
+
+# Optional: skip PyInstaller or dist folders
+dist/
+build/

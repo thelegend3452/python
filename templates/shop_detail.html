@@ -1,0 +1,1 @@
+<!DOCTYPE html><html><head><title>{{ name }}</title></head><body>    <h1>{{ name }}</h1>    <p>Total visits: {{ shop.visits }}</p>    <p>Last visit: {{ shop.last_visit }}</p>    <h3>Recent Notes:</h3>    <ul>        {% for note in shop.notes[-5:] %}        <li>{{ note }}</li>        {% endfor %}    </ul>    <a href="{{ url_for('index') }}">Back</a></body></html>

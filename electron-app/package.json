@@ -1,0 +1,17 @@
+{
+  "name": "coffee-tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "keywords": [],
+  "devDependencies": {
+    "electron": "^36.3.2"
+  }
+}
+
