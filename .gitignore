@@ -11,3 +11,4 @@ electron-app/CoffeeTracker-*/   # built app folders
 # Optional: skip PyInstaller or dist folders
 dist/
 build/
+ 
